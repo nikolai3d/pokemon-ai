@@ -6,6 +6,18 @@ The network is deliberately small (16-cell RNNs x 4 layers) to prevent overfitti
 
 `pokemon_training.py` processes the data and trains the model, `pokemon_generate.py` generates the names from the trained AI.
 
+## Dependencies
+
+Requires Python 3 (since `textgenrnn` is a Python 3 module)
+
+### Installation
+
+```
+$ pip3 install textgenrnn
+$ pip3 install tensorflow
+$ pip3 install pandas
+``` 
+
 ## Maintainer/Creator
 
 Max Woolf ([@minimaxir](http://minimaxir.com))
